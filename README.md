@@ -58,9 +58,9 @@ From the replicates across noise conditions we derive:
 - **Standard deviation of time** – measure of variability.
 - **Mean memory** – to check constraint violation.
 - **Signal‑to‑Noise Ratio (SNR)** for “smaller‑is‑better”:
-  \[
-  \text{SNR} = -10 \log_{10}\left(\frac{1}{n}\sum_{i=1}^{n} y_i^2\right)
-  \]
+$$
+\text{SNR} = -10 \log_{10}\left(\frac{1}{n}\sum_{i=1}^{n} y_i^2\right)
+$$
   where \(y_i\) are the time measurements across noise runs. This metric penalises both high mean and high variance.
 
 ---
